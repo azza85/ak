@@ -9,7 +9,7 @@ Amplify.configure(config)
 const IndexPage = () => {
   return (
     <Layout>
-      <h2>About</h2>
+      <h2>About.</h2>
       <div
         style={{
           display: 'flex',
