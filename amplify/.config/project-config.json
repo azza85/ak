@@ -1,14 +1,14 @@
 {
-    "projectName": "my-aws-project",
-    "version": "1.0",
+    "projectName": "aaronkenez",
+    "version": "3.0",
     "frontend": "javascript",
     "javascript": {
         "framework": "react",
         "config": {
             "SourceDir": "src",
-            "DistributionDir": "build",
+            "DistributionDir": "public",
             "BuildCommand": "npm run-script build",
-            "StartCommand": "npm run-script start"
+            "StartCommand": "npm run-script develop"
         }
     },
     "providers": [
