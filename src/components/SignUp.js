@@ -3,6 +3,7 @@ import { navigate} from "@reach/router"
 import { Link } from 'gatsby'
 import Error from './Error'
 import { Auth } from 'aws-amplify'
+import { primary } from "../utils/colors"
 
 const initialState = {
   username: ``,
@@ -121,7 +122,7 @@ const styles = {
     display: 'flex', flexDirection: 'column'
   },
   button: {
-    backgroundColor: 'rebeccapurple', padding: '15px 7px', cursor: 'pointer', textAlign: 'center', marginBottom: 10
+    backgroundColor: primary, padding: '15px 7px', cursor: 'pointer', textAlign: 'center', marginBottom: 10
   },
   buttonText: {
     color: 'white'

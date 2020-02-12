@@ -5,11 +5,12 @@ import { navigate } from '@reach/router'
 
 import { logout, isLoggedIn } from "../utils/auth"
 import { Auth } from 'aws-amplify'
+import { primary } from '../utils/colors'
 
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: primary,
       marginBottom: '1.45rem',
     }}
   >
