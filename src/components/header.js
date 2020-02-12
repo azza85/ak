@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import { navigate } from '@reach/router'
 
 import { logout, isLoggedIn } from '../utils/auth'
-import { Auth } from 'aws-amplify'
+import Auth from '@aws-amplify/auth'
 import { primary } from '../utils/colors'
 import Github from './svg/Github'
 

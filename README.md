@@ -1,6 +1,7 @@
 # Gatsby Auth starter with AWS Amplify
 
 This auth starter implements a basic authentication flow for signing up signing in users as well as protected client side routing using [AWS Amplify](https://amplify.aws). Auth features:
+
 - User sign up
 - User sign in
 - Multi-factor Authentication
@@ -17,8 +18,8 @@ Click the button to deploy a fullstack app in your AWS account:
 You can now continuously deploy changes to your frontend or backend and Amplify Console will automatically deploy those changes.
 
 <!-- <img src="https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif" width="800"/> -->
-![Amplify Console](src/images/amplify-console.gif)
 
+![Amplify Console](src/images/amplify-console.gif)
 
 # Run locally
 
@@ -60,15 +61,15 @@ amplify init
 
 > Here, walk through the following steps:
 
-- Enter a name for the project __YOURPROJECTNAME__
-- Enter a name for the environment __master__
-- Choose your default editor: __Visual Studio Code__ (or your editor of choice)
-- Choose the type of app that you're building __javascript__
-- What javascript framework are you using __react__
-- Source Directory Path: __src__
-- Distribution Directory Path: __public__
-- Build Command: __npm run-script build__
-- Start Command: __npm run-script develop__
+- Enter a name for the project **YOURPROJECTNAME**
+- Enter a name for the environment **master**
+- Choose your default editor: **Visual Studio Code** (or your editor of choice)
+- Choose the type of app that you're building **javascript**
+- What javascript framework are you using **react**
+- Source Directory Path: **src**
+- Distribution Directory Path: **public**
+- Build Command: **npm run-script build**
+- Start Command: **npm run-script develop**
 
 6. Push the updated project configuration to AWS. It will deploy a CloudFormation template that has an Amazon Cognito resource that enables user authentication.
 
@@ -77,6 +78,7 @@ amplify push
 ```
 
 7. Then you can run it by:
+
 ```sh
 gatsby develop
 ```
